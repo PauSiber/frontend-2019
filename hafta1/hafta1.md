@@ -6,7 +6,7 @@
 
 ---
 
-## HTML Nedir?
+## HTML(Hyper Text Markup Language) Nedir?
 **.**
 **.**
 **.**
@@ -140,7 +140,7 @@ Tüm tagleri saran kodlamanın **html** kodları ile yapılması gerektiğini if
 
 ---
 
-## CSS Nedir? (Cascading Style Stylesheet)
+## CSS(Cascading Style Stylesheet) Nedir?
 **.**
 **.**
 **.**
