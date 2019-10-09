@@ -1,15 +1,18 @@
 # Hafta 1
 
-**Amaç :** ---
+**Amaç :** Front-end'in ne olduğunu, HTML ve CSS kavramlarını öğreneceğiz. Sonrasında en temel HTML etiketlerinin ne olduğunu ve bunları stillendirmeyi öğreneceğiz.
 
 **Yazarlar :** [**hazalsilayaprak**](https://github.com/hazalsilayaprak) **&&** [**aykutsahinler**](https://github.com/aykutsahinler)
 
 ---
 
 ## HTML(Hyper Text Markup Language) Nedir?
-**.**
-**.**
-**.**
+HTML bir programlama dili değildir. Aslında Microsoft Word gibi belgeleri düzenleme ve biçimlendirmeye yarar. Arama motorlarına web sitesi hakkında bilgi verir. Web sayfalarının hazırlanmasını sağlar.
+
+#### HTML neler sunar?
+
+Görsel, yazı gibi şeylerin web sitesine yerleştirilmesini sağlar.
+
 
 ### HTML Tag'leri
 
@@ -36,125 +39,135 @@ Tüm tagleri saran kodlamanın **html** kodları ile yapılması gerektiğini if
   style="box-shadow: 0px 2px 10px 5px rgba(0,0,0, .1)">
 </p>
 
-> örnek not: !!
-
 ### `<head>`
-**.**
-**.**
-**.**
+`<head>` etiketi tarayıcıya web sitesi hakkındaki bilgileri barındıran etikettir. Bu alanda yer alan kodlar sitede görünmez.
 
-#### `<meta>`
-**.**
-**.**
-**.**
+#### `<head>` etiketinin içine yazılan etiketler nelerdir?
 
-#### `<script>`
-**.**
-**.**
-**.**
+##### `<meta>`
+Sayfamızın açıklama, anahtar kelimeler, sayfa yazarı, son değiştirilme tarihi gibi bilgilerin bulunduğu kısımdır.
 
-#### `<title>`
-**.**
-**.**
-**.**
+##### `<script>`
+Sayfamızda JS yazabilmemizi sağlayan etikettir.
 
-#### `<style>`
-**.**
-**.**
-**.**
+##### `<noscript>`
+Kullanıcı tarayıcısında JS çalıştırılmasını engellediyse bu etiket içine yazılan uyarı mesajı ile JS kullanımını açın gibi mesajlar gösterilebilir.
 
-#### `<link>`
-**.**
-**.**
-**.**
+##### `<title>`
+Sayfanın tarayıcı sekmesinde yazan başlığı, ismidir.
+
+##### `<style>`
+Sayfamızda CSS yazabilmemizi sağlayan etikettir. Sayfamızı stillendirir.
+
+##### `<link>`
+Sayfamıza dışarıdan bir dosya dahil etmek istiyorsak bu etiket içine yazarız.
 
 ### `<body>`
-**.**
-**.**
-**.**
+`<head>` etiketinden farklı olarak <body> içine yazılan bütün etiketler sitede görünür. Kısaca sayfanın görünen kısmını oluşturur.
 
-#### `<div>` !!
-**.**
-**.**
-**.**
-
-#### `<section>`
-**.**
-**.**
-**.**
+#### `<body>` etiketinin içine yazılan başlıca etiketler nelerdir?
 
 #### `<p>`
-**.**
-**.**
-**.**
+Sayfada bulunan paragarflar, cümleler, kısaca yazıların yazıldığı etikettir.
 
 #### `<h1>, <h2>, ... ,<h6>`
-**.**
-**.**
-**.**
+Sayfamızda başlık olarak geçen yazıları temsil eder. Önem sırasına göre h1 den h6 ya kadar gider.
 
 #### `<a>`
-**.**
-**.**
-**.**
+Bir resim, yazı ya da herhangi bir şeye tıklandığında başka bir yere yönlendirmek istediğimizde <a> etiketini kullanırız.
 
-#### `<image>`
-**.**
-**.**
-**.**
+#### `<img>`
+Sayfamıza resim eklememizi sağlayan etikettir.
 
 #### `<iframe>`
-**.**
-**.**
-**.**
+Bir sayfanın içerisine farklı bir internet sayfasını çağırıp, görüntülemenize yardımcı olan bir HTML etiketidir.
 
 #### `<br>`
-**.**
-**.**
-**.**
+Sayfamızda satır atlatmak için kullanılan etikettir.
 
 #### `<hr>`
-**.**
-**.**
-**.**
+Sayfamıza çizgi çizmek için kullanılan etikettir.
 
 #### `<ul>, <ol>`
-**.**
-**.**
-**.**
+Bir listenin var olduğunu belirten etikettir.
 
 ##### `<li>`
-**.**
-**.**
-**.**
+Listenin elemanlarının yazıldığı etikettir.
+
+
+#### `<div>` !!
+Sayfamızda sanal bir kutu oluşturduğumuz etikettir.
 
 #### `<table>`
-**.**
-**.**
-**.**
+<p align="center">
+	<img alt="table" src="img/table.png" width="500"
+  style="box-shadow: 0px 2px 10px 5px rgba(0,0,0, .1)">
+</p>
+<p align="center">
+	<img alt="table" src="img/table-code.png" width="500"
+  style="box-shadow: 0px 2px 10px 5px rgba(0,0,0, .1)">
+</p>
+<p align="center">
+	<img alt="table" src="img/table-css.png" width="500"
+  style="box-shadow: 0px 2px 10px 5px rgba(0,0,0, .1)">
+</p>
 
-#### `<form>` !!
-**.**
-**.**
-**.**
+#### `<form>`
+<p align="center">
+	<img alt="table" src="img/form.png" width="500"
+  style="box-shadow: 0px 2px 10px 5px rgba(0,0,0, .1)">
+</p>
 
----
+## CSS Nedir?
+"Cascading Style Sheets" in kısaltmasıdır. Sitemizde var olan HTML etiketlerini şekillendirmemize olanak sağlayan dildir.
 
-## CSS(Cascading Style Stylesheet) Nedir?
-**.**
-**.**
-**.**
+### HTML elementlerine neden class verilir?
 
-**.**
-**.**
-**.**
+HTML taglarından istediğimiz olana erişebilmek için class verilir.
 
+### Id ile class arasındaki fark nedir?
+
+Id tektir, bir kere kullanılır. Class birçok etikette kullanılabilir.
+
+### CSS nasıl yazılır?
+
+#### HTML etiketinin içinde stil belirtme
+
+Etiketin içine style="" yazdığımız anda " " içine yazılacak bütün CSS kodları o etikete ait olur.
+
+<p align="center">
+	<img alt="table" src="img/inline-css.png" width="500"
+  style="box-shadow: 0px 2px 10px 5px rgba(0,0,0, .1)">
+</p>
+
+#### HTML sayfasında CSS yazmak
+
+HTML sayfamızda `<head>` elementlerinin arasında `<style>` elementi kullanarak stiller yaratmamız mümkündür.
+
+<p align="center">
+	<img alt="internal" src="img/internal-css.png" width="500"
+  style="box-shadow: 0px 2px 10px 5px rgba(0,0,0, .1)">
+</p>
+
+#### Stilleri CSS dosyasından çağırmak
+
+Herhangi bir not alma uygulamasından (atom, sublime, notepad++, not defteri) CSS kod yapısına uygun bir şekilde yazılır ve kaydedilir daha sonra HTML dosyamızda <head> etiketi arasına <link> etiketi açılı ve href="" kısmına CSS dosyamızın uzantısı eklenir.
+
+#### CSS'te flex nedir?
+
+Flex sitenin yapısının şekillendirme özelliğidir. Site içerisindeki araçları yatay ve dikeyde kolaylıkla düzenlemek ve hizalamak için kullanılabilecek en iyi CSS yöntemidir.
+
+#### Flex kullanımı nasıldır?
+
+Flex, bir kapsayıcı eleman niteliğindedir ve elemana ait iç elemanlarla etkileşim halindedir. Flex display özelliğinin parametresi şeklinde kullanılır. Flex'i uygulayabilmek için bir tane kapsayıcı eleman ve ona ait iç elemanlarımız olması gereklidir. Kapsayıcı elemana display: flex özelliği verildiğinde kullanıma hazır olur.
 
 ---
 
 ## Bu hafta neler yaptık ?
-**.**
-**.**
-**.**
+'Front-end nedir?' öğrendik.
+
+'HTML nedir?' öğrendik.
+
+'CSS nedir?' öğrendik.
 
 **Haftaya Görüşmek Üzere!**
