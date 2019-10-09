@@ -148,3 +148,13 @@ Tüm tagleri saran kodlamanın **html** kodları ile yapılması gerektiğini if
 **.**
 **.**
 **.**
+
+
+---
+
+## Bu hafta neler yaptık ?
+**.**
+**.**
+**.**
+
+**Haftaya Görüşmek Üzere!**
