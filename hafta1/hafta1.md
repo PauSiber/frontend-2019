@@ -44,22 +44,22 @@ Tüm tagleri saran kodlamanın **html** kodları ile yapılması gerektiğini if
 
 #### `<head>` etiketinin içine yazılan etiketler nelerdir?
 
-##### `<meta>`
+- `<meta>`
 Sayfamızın açıklama, anahtar kelimeler, sayfa yazarı, son değiştirilme tarihi gibi bilgilerin bulunduğu kısımdır.
 
-##### `<script>`
+-  `<script>`
 Sayfamızda JS yazabilmemizi sağlayan etikettir.
 
-##### `<noscript>`
+- `<noscript>`
 Kullanıcı tarayıcısında JS çalıştırılmasını engellediyse bu etiket içine yazılan uyarı mesajı ile JS kullanımını açın gibi mesajlar gösterilebilir.
 
-##### `<title>`
+- `<title>`
 Sayfanın tarayıcı sekmesinde yazan başlığı, ismidir.
 
-##### `<style>`
+- `<style>`
 Sayfamızda CSS yazabilmemizi sağlayan etikettir. Sayfamızı stillendirir.
 
-##### `<link>`
+- `<link>`
 Sayfamıza dışarıdan bir dosya dahil etmek istiyorsak bu etiket içine yazarız.
 
 ### `<body>`
@@ -67,38 +67,37 @@ Sayfamıza dışarıdan bir dosya dahil etmek istiyorsak bu etiket içine yazar�
 
 #### `<body>` etiketinin içine yazılan başlıca etiketler nelerdir?
 
-#### `<p>`
+- `<p>`
 Sayfada bulunan paragarflar, cümleler, kısaca yazıların yazıldığı etikettir.
 
-#### `<h1>, <h2>, ... ,<h6>`
+- `<h1>, <h2>, ... ,<h6>`
 Sayfamızda başlık olarak geçen yazıları temsil eder. Önem sırasına göre h1 den h6 ya kadar gider.
 
-#### `<a>`
+- `<a>`
 Bir resim, yazı ya da herhangi bir şeye tıklandığında başka bir yere yönlendirmek istediğimizde <a> etiketini kullanırız.
 
-#### `<img>`
+- `<img>`
 Sayfamıza resim eklememizi sağlayan etikettir.
 
-#### `<iframe>`
+- `<iframe>`
 Bir sayfanın içerisine farklı bir internet sayfasını çağırıp, görüntülemenize yardımcı olan bir HTML etiketidir.
 
-#### `<br>`
+- `<br>`
 Sayfamızda satır atlatmak için kullanılan etikettir.
 
-#### `<hr>`
+- `<hr>`
 Sayfamıza çizgi çizmek için kullanılan etikettir.
 
-#### `<ul>, <ol>`
+- `<ul>, <ol>`
 Bir listenin var olduğunu belirten etikettir.
 
-##### `<li>`
+- `<li>`
 Listenin elemanlarının yazıldığı etikettir.
 
+- `<div>`
+  Sayfamızda sanal bir kutu oluşturduğumuz etikettir.
 
-#### `<div>` !!
-Sayfamızda sanal bir kutu oluşturduğumuz etikettir.
-
-#### `<table>`
+- `<table>`
 <p align="center">
 	<img alt="table" src="img/table.png" width="500"
   style="box-shadow: 0px 2px 10px 5px rgba(0,0,0, .1)">
@@ -112,7 +111,7 @@ Sayfamızda sanal bir kutu oluşturduğumuz etikettir.
   style="box-shadow: 0px 2px 10px 5px rgba(0,0,0, .1)">
 </p>
 
-#### `<form>`
+-  `<form>`
 <p align="center">
 	<img alt="table" src="img/form.png" width="500"
   style="box-shadow: 0px 2px 10px 5px rgba(0,0,0, .1)">
@@ -131,8 +130,7 @@ Id tektir, bir kere kullanılır. Class birçok etikette kullanılabilir.
 
 ### CSS nasıl yazılır?
 
-#### HTML etiketinin içinde stil belirtme
-
+- **HTML etiketinin içinde stil belirtme:**
 Etiketin içine style="" yazdığımız anda " " içine yazılacak bütün CSS kodları o etikete ait olur.
 
 <p align="center">
@@ -140,8 +138,7 @@ Etiketin içine style="" yazdığımız anda " " içine yazılacak bütün CSS k
   style="box-shadow: 0px 2px 10px 5px rgba(0,0,0, .1)">
 </p>
 
-#### HTML sayfasında CSS yazmak
-
+- **HTML sayfasında CSS yazmak:**
 HTML sayfamızda `<head>` elementlerinin arasında `<style>` elementi kullanarak stiller yaratmamız mümkündür.
 
 <p align="center">
@@ -149,8 +146,7 @@ HTML sayfamızda `<head>` elementlerinin arasında `<style>` elementi kullanarak
   style="box-shadow: 0px 2px 10px 5px rgba(0,0,0, .1)">
 </p>
 
-#### Stilleri CSS dosyasından çağırmak
-
+- **Stilleri CSS dosyasından çağırmak:**
 Herhangi bir not alma uygulamasından (atom, sublime, notepad++, not defteri) CSS kod yapısına uygun bir şekilde yazılır ve kaydedilir daha sonra HTML dosyamızda <head> etiketi arasına <link> etiketi açılı ve href="" kısmına CSS dosyamızın uzantısı eklenir.
 
 #### CSS'te flex nedir?
@@ -164,10 +160,10 @@ Flex, bir kapsayıcı eleman niteliğindedir ve elemana ait iç elemanlarla etki
 ---
 
 ## Bu hafta neler yaptık ?
-'Front-end nedir?' öğrendik.
+- 'Front-end nedir?' öğrendik.
 
-'HTML nedir?' öğrendik.
+- 'HTML nedir?' öğrendik.
 
-'CSS nedir?' öğrendik.
+- 'CSS nedir?' öğrendik.
 
 **Haftaya Görüşmek Üzere!**
