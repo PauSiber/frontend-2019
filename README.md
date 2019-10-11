@@ -2,9 +2,9 @@
 
 ---
 
-| Hafta | İçerik    |
-| :------------- | :------------- |
-| **`hafta 1`** | [HTML ve CSS kavramlarına giriş, HTML tagleri, HTML ile örnek bir form oluşturup CSS ile stillendirme](hafta1/hafta1.md)|
+| # | İçerik | Uygulama | 
+|:-----:|:------:|:--------:|
+| **Hafta 1** | [**`HTML ve CSS kavramlarına giriş,`**<br>**`HTML tagleri,`**<br>**`HTML ile örnek bir form oluşturup CSS ile stillendirme`**](/home/fsutil/Desktop/frontend/_data/_documents/week_1/hafta1.md) | [**`Büyüyen Harry Potter`**]() |
 
 
 ---
