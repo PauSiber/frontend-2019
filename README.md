@@ -4,7 +4,7 @@
 
 | # | İçerik | Uygulama | 
 |:-----:|:------:|:--------:|
-| **Hafta 1** | [**`HTML ve CSS kavramlarına giriş,`**<br>**`HTML tagleri,`**<br>**`HTML ile örnek bir form oluşturup CSS ile stillendirme`**](_data/_documents/week_1/README.md) | [**`Büyüyen Harry Potter`**]() |
+| **Hafta 1** | [**`HTML ve CSS kavramlarına giriş,`**<br>**`HTML tagleri,`**<br>**`HTML ile örnek bir form oluşturup CSS ile stillendirme`**](_data/_documents/week_1/README.md) | [**`Büyüyen Harry Potter`**](_data/_examples/week_1/buyuyen_harry_potter/) |
 
 
 ---
