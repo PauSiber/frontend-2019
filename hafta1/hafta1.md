@@ -103,15 +103,31 @@ Sayfamızda sanal bir kutu oluşturduğumuz etikettir.
 	<img alt="table" src="img/table.png" width="500"
   style="box-shadow: 0px 2px 10px 5px rgba(0,0,0, .1)">
 </p>
-<p align="center">
-	<img alt="table" src="img/table-code.png" width="500"
-  style="box-shadow: 0px 2px 10px 5px rgba(0,0,0, .1)">
-</p>
-<p align="center">
-	<img alt="table" src="img/table-css.png" width="500"
-  style="box-shadow: 0px 2px 10px 5px rgba(0,0,0, .1)">
-</p>
 
+```html
+<table style="width:50%">
+<tr>
+<th>Firstname</th>
+<th>Lastname</th>
+<th>Age</th>
+</tr>
+<tr>
+<td>Jill</td>
+<td>Smith</td>
+<td>50</td>
+</tr>
+<tr>
+<td>Eve</td>
+<td>Jackson</td>
+<td>94</td>
+</tr>
+</table>
+```
+```CSS
+table, th, td {
+  border: 1px solid black;
+}
+```
 #### `<form>`
 <p align="center">
 	<img alt="table" src="img/form.png" width="500"
