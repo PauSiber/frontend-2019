@@ -151,19 +151,34 @@ Id tektir, bir kere kullanılır. Class birçok etikette kullanılabilir.
 
 Etiketin içine style="" yazdığımız anda " " içine yazılacak bütün CSS kodları o etikete ait olur.
 
-<p align="center">
-	<img alt="table" src="img/inline-css.png" width="500"
-  style="box-shadow: 0px 2px 10px 5px rgba(0,0,0, .1)">
-</p>
+```html
+<div class="box" style="width: 200px; height: 200px; background-color: #ddd;"></div>
+```
 
 #### HTML sayfasında CSS yazmak
 
 HTML sayfamızda `<head>` elementlerinin arasında `<style>` elementi kullanarak stiller yaratmamız mümkündür.
 
-<p align="center">
-	<img alt="internal" src="img/internal-css.png" width="500"
-  style="box-shadow: 0px 2px 10px 5px rgba(0,0,0, .1)">
-</p>
+```html
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>hafta1</title>
+    <style>
+        .box {
+            width: 200px;
+            height: 200px;
+            background-color: #ddd;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box"></div>
+</body>
+```
 
 #### Stilleri CSS dosyasından çağırmak
 
