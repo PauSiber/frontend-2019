@@ -68,7 +68,7 @@ Aşağıda bu hafta yaptığımız uygulamanın kodlarını göreceksiniz.
 }
 
 .logo{
-  width: 100px;
+  height: 100px;
   cursor: pointer;
 }
 
