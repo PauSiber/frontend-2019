@@ -5,7 +5,9 @@
 | # | İçerik | Uygulama | 
 |:-----:|:------:|:--------:|
 | **Hafta 1** | [**`- HTML ve CSS kavramlarına giriş,`**<br>**`- HTML tagleri,`**<br>**`- HTML ile örnek bir form oluşturup CSS ile stillendirme`**](_data/_documents/week_1/README.md) | [**`- Büyüyen Harry Potter`**](https://pausiber.xyz/buyuyen_harry_potter/)<br>[**`- Kaynak Kodu`**](_data/_examples/week_1/buyuyen_harry_potter/) |
-| **Hafta 2** | [**`- Geçen haftanın tekrar edilmesi,`**<br>**`- Flex kullanımının pekiştirilmesi`**](_data/_documents/week_2/README.md) | [**`- Fotoğraf Listesi Sitesi`**](https://pausiber.xyz/fotograf_listesi_sitesi/)<br>[**`- Kaynak Kodu`**](_data/_examples/week_2/fotograf_listesi_sitesi/) |
+| **Hafta 2** | [**`- Geçen haftanın tekrar edilmesi,`**<br>**`- Flex kullanımının pekiştirilmesi`**](_data/_documents/week_2/README.md) | [**`- Fotoğraf Listesi Sitesi`**](https://pausiber.xyz/fotograf_listesi_sitesi/)<br>[**`- Kaynak Kodu`**](_data/_examples/week_3/|
+| **Hafta 3** | [**`- Animasyon kavramından bahsedilmesi,`**<br>**`- İlk ders yapılan uygulamanın kaynak kodu `**](_data/_examples/week_3/app_1) | [**`- İkinci ders yapılan uygulamanın kaynak kodu`**](_data/_examples/week_3/app_2)<br>[**`İleri CSS örnek uygulama kaynak kodu`**](_data/_examples/week_3/week_3_example) |
+
 
 
 ---
